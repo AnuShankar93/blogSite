@@ -17,6 +17,7 @@ export class AppComponent implements OnInit{
     this.fetchData.getCategories().subscribe(data => {
       console.log(data);
     })
+    console.log('hi');
   }
   title = 'blogSite';
 }
